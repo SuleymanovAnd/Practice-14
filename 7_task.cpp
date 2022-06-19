@@ -31,7 +31,7 @@ void pre_minecraft (){
     int slice;
     std::cout <<  "input slice: ";
     std::cin >> slice;
-    while (slice <1 || slice >10) {std::cout << "slice out in range world height! Input again:"; std::cin >> slice;}
+    while (slice <0 || slice >9) {std::cout << "slice out in range world height! Input again:"; std::cin >> slice;}
 
     for (int i = 0;i<5;i++){
         for(int j = 0;j<5;j++) {
